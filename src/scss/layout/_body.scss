@@ -1,0 +1,156 @@
+body {
+  width: 100vw;
+  background-color: $body-color;
+}
+
+@include devices(mobile) {
+
+  body {
+    height: auto;
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+
+      header {
+        width: 100vw;
+        grid-area: header;
+      }
+
+      main {
+        width: 100vw;
+        grid-area: main;
+      }
+
+      footer {
+        width: 100vw;
+        grid-area: footer;
+      }
+  }
+}
+
+@include devices(mobile-landscape) {
+
+  body {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+
+      header {
+        grid-area: header;
+      }
+
+      main {
+        grid-area: main;
+      }
+
+      footer {
+        grid-area: footer;
+      }
+  }
+}
+
+@include devices(tablet) {
+
+    body {
+      height: auto;
+      display: grid;
+      grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+  
+        header {
+          width: 100vw;
+          grid-area: header;
+        }
+  
+        main {
+          width: 100vw;
+          grid-area: main;
+        }
+  
+        footer {
+          width: 100vw;
+          grid-area: footer;
+        }
+    }
+}
+
+@include devices(tablet-landscape) {
+
+  body {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+
+      header {
+        grid-area: header;
+      }
+
+      main {
+        grid-area: main;
+      }
+
+      footer {
+        grid-area: footer;
+      }
+  }
+}
+
+@include devices(desktop) {
+
+  body {
+
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+
+      header {
+        grid-area: header;
+      }
+
+      main {
+        grid-area: main;
+      }
+
+      footer {
+        grid-area: footer;
+      }
+  }
+}
+
+@include devices(desktop-portrait) {
+
+  body {
+
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+
+      header {
+        grid-area: header;
+      }
+
+      main {
+        grid-area: main;
+      }
+
+      footer {
+        grid-area: footer;
+      }
+  }
+}

@@ -1,0 +1,71 @@
+@include devices(mobile) {
+
+  header {
+    padding: 2.5em 0;
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+@include devices(mobile-landscape) {
+  
+  header {
+    padding: 1em 0;
+  
+    svg {
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+@include devices(tablet) {
+
+  header {
+    padding: 2.5em 0;
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+@include devices(tablet-landscape) {
+
+  header {
+    padding: 1em 0;
+  
+    svg {
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+@include devices(desktop) {
+
+  header {
+    padding: 5em 0;
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+@include devices(desktop-portrait) {
+
+  header {
+    padding: 2.5em 0;
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+  }
+}
